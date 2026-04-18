@@ -1,5 +1,5 @@
 public abstract class BaseEntity {
-  private int id;
+  private final int id;
 
   public BaseEntity(int id){
     this.id = id;
